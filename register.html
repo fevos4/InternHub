@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> 
+    
+    <title>Document</title>
+</head>
+<body>
+  <section>
+  <div class="flex flex-col items-center justify-center h-screen">
+    <h2 class="text-2xl font-bold mb-4">Select your registration type:</h2>
+    <h3 class="mb-4">All users must have a user profile to use the service. Please select how you will be using InternHub</h3>
+    <div class="flex items-center mb-4">
+      <div class="mr-4">
+        <input type="radio" name="registration-type" id="student-radio" class="form-radio h-5 w-5 text-primary">
+        <label for="student-radio" class="ml-2 text-gray-700">Student</label>
+      </div>
+      <div>
+        <input type="radio" name="registration-type" id="company-radio" class="form-radio h-5 w-5 text-primary">
+        <label for="company-radio" class="ml-2 text-gray-700">Company</label>
+      </div>
+    </div>
+    <button id="submitBtn" class="bg-primary hover:bg-gray-800 hover:border hover:border-primary text-white font-bold py-2 px-4 rounded">
+      Submit
+    </button>
+  </div>
+  </section>
+   <!-- New copyright section -->
+ <footer class="bg-gray-800 text-white py-4 mt-12">
+  <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+    <div class="text-sm ml-4">&copy; 2023 Your Company. All rights reserved.</div>
+    <div class="flex space-x-4 mr-4 mt-2 md:mt-0">
+      <a href="#" class="hover:text-primary transition-colors duration-300">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#" class="hover:text-primary transition-colors duration-300">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="hover:text-primary transition-colors duration-300">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="hover:text-primary transition-colors duration-300">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
